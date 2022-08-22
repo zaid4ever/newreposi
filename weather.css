@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFAE0;
+}
+
+.container{
+    min-width: 1000px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+form{
+    text-align: center;
+}
+
+input{
+    font-size: 18px;
+}
+
+#search{
+    padding: 6px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+    width: 15%;
+    margin: 25px auto;
+    text-align: center;
+}
+
+#search>::placeholder{
+    /* font-size: 28px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* main weather */
+.container .row1{
+    display: flex;
+    justify-content: center;
+}
+
+.container .row1 h1{
+    font-size: 50px;
+    margin: 0 30px;
+}
+
+.container .row1 img{
+    width: 150px;
+    height: 150px;
+}
+
+.container .row2{
+    width: 100%;
+    /* background-color: aquamarine; */
+    border: 1px solid black;
+}
+
+.row2 h3{
+    text-align: center;
+    font-size: 32px;
+}
